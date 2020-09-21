@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic');
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#979797, #292B31);
+	box-shadow: inset 2px 2px 2px #000;
+}
+::-webkit-scrollbar{
+	color: #303030;
+	box-shadow: inset 2px 2px 5px #000;
+}
+
+body{
+	  background-color: #14171A;
+}
+html, body{
+	padding: 0;
+	margin: 0 auto;
+}
+header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 925px;
+	background-color: #0C1013;
+	color: white;
+	font-family: 'Russo One'
+}
+.download{
+	color: #fff;
+	background-color: #83B700;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 75px;
+	font-family: 'Russo One';
+	margin-left: 45%;
+	text-decoration: none;
+	transition: background .1s linear;
+	box-shadow: 3px 3px 15px #C8E385;
+}
+.download:hover{
+	border-color: #83B700;
+	background: linear-gradient(-45deg, #F79F30, #84BA00);
+	background-color: #fff;
+}
+#select_link{
+	font-size: 50px;
+	margin-left: 350px;
+	font-family: 'Russo One';
+	margin-left: 35%;
+	color: white;
+}
+#links{
+	maring-bottom: -100px;
+}
+#androin_link{
+	color: white;
+	font-size: 50px;
+	font-family: 'Russo One';
+	text-decoration: none;
+	transition: background .1s linear;
+	box-shadow: 3px 3px 15px #C8E385;
+	background-color: #83B700;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin-left: 4%;
+}
+#androin_link:hover{
+	border-color: #83B700;
+	background: linear-gradient(-25deg, #E9965B, #B34EE9);
+	background-color: #fff;
+}
+#pc_link{
+	color: white;
+	font-size: 50px;
+	font-family: 'Russo One';
+	text-decoration: none;
+	margin-left: 5%;
+	transition: background .1s linear;
+	box-shadow: 3px 3px 15px #C8E385;
+	background-color: #83B700;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+#pc_link:hover{
+	border-color: #83B700;
+	background: linear-gradient(-25deg,#E9965B, #B34EE9);
+	background-color: #fff;
+}
+.thumb{
+	display: inline;
+}
+#back{
+	color: #fff;
+	margin-left: 5%;
+	background-color: #83B700;
+	border-radius: 5px;
+	padding: 10px 10px;
+	transition: background .1s linear;
+	box-shadow: 3px 3px 15px #C8E385;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Russo One';
+}
